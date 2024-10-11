@@ -20,5 +20,66 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "kumbh Sans", sans-serif;
+  font-weight: 400;
+  color: #6b7082;
+  background-color: #19a1ae;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 326px;
+  background-color: #ffffff;
+  margin-top: 147px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+.photo {
+  position: absolute;
+  top: 90px;
+  width: 96px;
+  height: 96px;
+  border-radius: 45px;
+  border: solid 5px white;
+  margin-bottom: 26px;
+}
+.pattern {
+  width: 326px;
+  height: 140px;
+  border-radius: 15px 15px 0 0;
+  margin-bottom: 72px;
+}
+.view {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 326px;
+  margin-bottom: 24px;
+}
+
+.name-age {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.city {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.bold {
+  font-size: 18px;
+  color: #2e3349;
+  font-weight: 700;
+}
+.size {
+  font-size: 10px;
+}
+.line {
+  width: 326px;
+  height: 1px;
+  background-color: #e8e9ec;
+  margin-bottom: 24px;
 }
